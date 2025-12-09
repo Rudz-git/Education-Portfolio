@@ -1,26 +1,25 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react'
 import Card from '../components/Card'
-import rivan from "./picture/rivan.jpg";
-import rivan2 from "./picture/rivan2.jpg";
-import worldtech from "./picture/Worldtech.jpg";
-import codechum from "./picture/codechum.jpg";
+import rivan from "./Picture/rivan.jpg";
+import worldtech from "./Picture/Worldtech.jpg";
+import codechum from "./Picture/codechum.jpg";
 
-import bohol1 from "./picture/bohol1.jpg";
-import bohol2 from "./picture/bohol2.jpg";
-import bohol3 from "./picture/bohol3.jpg";
-import bohol4 from "./picture/bohol4.jpg";
-import bohol5 from "./picture/bohol5.jpg";
-import bohol6 from "./picture/bohol6.jpg";
-import bohol7 from "./picture/bohol7.jpg";
-import bohol8 from "./picture/bohol8.jpg";
-import bohol9 from "./picture/bohol9.jpg";
-import bohol10 from "./picture/bohol10.jpg";
-import bohol11 from "./picture/bohol11.jpg";
-import bohol12 from "./picture/bohol12.jpg";
-import bohol13 from "./picture/bohol13.jpg";
-import bohol14 from "./picture/bohol14.jpg";
-import bohol15 from "./picture/bohol15.jpg";
-import bohol16 from "./picture/bohol16.jpg";
+import bohol1 from "./Picture/bohol1.jpg";
+import bohol2 from "./Picture/bohol2.jpg";
+import bohol3 from "./Picture/bohol3.jpg";
+import bohol4 from "./Picture/bohol4.jpg";
+import bohol5 from "./Picture/bohol5.jpg";
+import bohol6 from "./Picture/bohol6.jpg";
+import bohol7 from "./Picture/bohol7.jpg";
+import bohol8 from "./Picture/bohol8.jpg";
+import bohol9 from "./Picture/bohol9.jpg";
+import bohol10 from "./Picture/bohol10.jpg";
+import bohol11 from "./Picture/bohol11.jpg";
+import bohol12 from "./Picture/bohol12.jpg";
+import bohol13 from "./Picture/bohol13.jpg";
+import bohol14 from "./Picture/bohol14.jpg";
+import bohol15 from "./Picture/bohol15.jpg";
+import bohol16 from "./Picture/bohol16.jpg";
 
 import cebu1 from "./Picture/cebu1.jpg";
 import cebu2 from "./Picture/cebu2.jpg";
@@ -36,13 +35,13 @@ import cebu11 from "./Picture/cebu11.jpg";
 import cebu12 from "./Picture/cebu12.jpg";
 import cebu1st from "./Picture/cebu1st.jpg";
 
-import third1 from "./picture/3rd1.jpg";
-import third2 from "./picture/3rd2.jpg";
-import third3 from "./picture/3rd3.jpg";
-import third4 from "./picture/3rd4.jpg";
-import third5 from "./picture/3rd5.jpg";
-import third6 from "./picture/3rd6.jpg";
-import third7 from "./picture/3rd7.jpg";
+import third1 from "./Picture/3rd1.jpg";
+import third2 from "./Picture/3rd2.jpg";
+import third3 from "./Picture/3rd3.jpg";
+import third4 from "./Picture/3rd4.jpg";
+import third5 from "./Picture/3rd5.jpg";
+import third6 from "./Picture/3rd6.jpg";
+import third7 from "./Picture/3rd7.jpg";
 
 
 
@@ -96,7 +95,6 @@ const GROUPS = [
     label: 'November 20 - Cebu 2nd Day',
     items: [
       { id: 'g2-1', name: 'Rivan IT Hall', data: rivan },
-      { id: 'g2-2', name: 'Rivan IT Hall', data: rivan2 },
       { id:'c1', name:'Cebu Photo 1', data: cebu1 },
       { id:'c9', name:'Cebu Photo 9', data: cebu9 },
         { id:'g3-1', name:'CodeChum Visit', data: codechum },
