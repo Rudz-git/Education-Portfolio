@@ -8,6 +8,8 @@ import page3 from './Picture/page3.jpg'
 import page4 from './Picture/page4.jpg'
 import page5 from './Picture/page5.jpg'
 import page6 from './Picture/page6.jpg'
+import page7 from './Picture/page7.jpg'
+import page8 from './Picture/page8.jpg'
 
 const PHOTOS = [
   { id: 'j1', caption: 'Cover Page', src: page1 },
@@ -16,6 +18,8 @@ const PHOTOS = [
   { id: 'j4', caption: 'WorldTech Information Solutions',  src: page4 },
   { id: 'j5', caption: 'Rivan IT Cebu', src: page5 },
   { id: 'j6', caption: 'Codechum', src: page6 },
+  { id: 'j7', caption: 'MATA', src: page7 },
+  { id: 'j8', caption: 'TARSIER', src: page8 },
 ]
 
 export default function Journal(){

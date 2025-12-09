@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react'
 import Card from '../components/Card'
 import rivan from "./picture/rivan.jpg";
+import rivan2 from "./picture/rivan2.jpg";
 import worldtech from "./picture/Worldtech.jpg";
 import codechum from "./picture/codechum.jpg";
 
@@ -95,6 +96,7 @@ const GROUPS = [
     label: 'November 20 - Cebu 2nd Day',
     items: [
       { id: 'g2-1', name: 'Rivan IT Hall', data: rivan },
+      { id: 'g2-2', name: 'Rivan IT Hall', data: rivan2 },
       { id:'c1', name:'Cebu Photo 1', data: cebu1 },
       { id:'c9', name:'Cebu Photo 9', data: cebu9 },
         { id:'g3-1', name:'CodeChum Visit', data: codechum },
